@@ -14,5 +14,12 @@ namespace Konkah.LibraryCSharpColorTerminal
             Console.WriteLine(exemplo);
             Console.ResetColor();
         }
+
+        public static void Write(string exemplo, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(exemplo);
+            Console.ResetColor();
+        }
     }
 }

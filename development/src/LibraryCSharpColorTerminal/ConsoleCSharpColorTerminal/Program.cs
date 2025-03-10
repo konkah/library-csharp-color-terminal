@@ -11,6 +11,10 @@ namespace ConsoleCSharpColorTerminal
 
             ConsoleColored.WriteLine(exemplo, ConsoleColor.Red);
             ConsoleColored.WriteLine(exemplo1, ConsoleColor.Blue);
+
+            ConsoleColored.Write(exemplo, ConsoleColor.Blue);
+            Console.Write(" ");
+            ConsoleColored.Write(exemplo1, ConsoleColor.Red);
         }
     }
 }
