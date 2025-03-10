@@ -4,6 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackageId>Konkah.LibraryCSharpColorTerminal</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Karlos H. Braga (Konkah)</Authors>
+	<Description>Library created to colorize terminal text</Description>
+	<PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/konkah/library-csharp-color-terminal</RepositoryUrl>
+	<PackageTags>color;terminal;console;write;print</PackageTags>
+	<IsPackable>true</IsPackable>
   </PropertyGroup>
 
 </Project>
